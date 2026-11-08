@@ -10,7 +10,10 @@ B et A d'abord (procédures perdues, assistant en lecture seule), puis automatis
 Raison : les procédures réelles sont à reconstituer ; on ne code pas sur des hypothèses.
 Tranché par : François.
 
-## D-003 — Dépôt privé (8/11/2026)
-Le dépôt GitHub est privé et ne contient aucune donnée de client, d'adhérent ou de prix, ni secret.
-Raison : règles de sécurité du projet.
-Tranché par : François (instructions du projet).
+## D-003 — Dépôt privé (8/11/2026) — REMPLACÉE par D-004
+Le dépôt GitHub était privé à sa création.
+
+## D-004 — Dépôt public sous licence PolyForm Shield 1.0.0 (8/11/2026)
+Le dépôt devient public, sous licence PolyForm Shield 1.0.0 (fichier LICENSE, avec la ligne « Required Notice » au nom d'AUVABIO, à confirmer). Aucune donnée réelle n'y est déposée : captures floutées ou de test, prix, noms et adresses hors dépôt, aucun secret.
+Raison : économiser les minutes GitHub Actions (gratuites en dépôt public). François a été prévenu du risque et a choisi cette option.
+Tranché par : François. Remplace D-003.

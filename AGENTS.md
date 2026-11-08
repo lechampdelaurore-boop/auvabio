@@ -20,7 +20,7 @@ Toute modification de l'état du projet met les registres à jour dans la même 
 ## Sécurité (absolue)
 - Jamais de mot de passe, clé, jeton, code ou e-mail vu, saisi ou écrit par Claude.
 - Zandoly, Socleo, OTF : lecture seule. Toute écriture exige la validation humaine écrite, action par action.
-- Pas de donnée de client, de prix ou d'adhérent dans un dépôt public ni dans une capture non floutée.
+- Le dépôt est PUBLIC (décision D-004) : aucune donnée réelle dedans (clients, adhérents, prix, noms, e-mails, secrets). Captures floutées ou prises en données de test. En cas de doute, ne pas déposer et demander à François.
 - API OTF : 4 requêtes par seconde au plus, un jeton par ferme, lecture seule sans accord écrit d'OTF.
 
 ## Code (volet C)
