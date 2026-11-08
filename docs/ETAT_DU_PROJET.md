@@ -1,7 +1,7 @@
 # État du projet AUVABIO
 
 ## Où on en est (mettre à jour à chaque fin de tâche)
-- Date : 8/11/2026. Le projet vient d'être créé. Le dépôt GitHub privé « auvabio » existe et contient les registres de départ. Le reste n'est pas encore fait.
+- Date : 8/11/2026. Le projet vient d'être créé. Le dépôt GitHub « auvabio » existe (public après la PR de licence, D-004) et contient les registres de départ. Le reste n'est pas encore fait.
 - Contexte : deux cadres licenciés, passation en une semaine à deux membres du bureau, informations perdues. Un nouvel employé, Romain, remplace les deux postes.
 - Volets : A (assistant Zandoly/Socleo, recopie, veille des prix), B (documentation), C (module sur mesure adossé à OTF).
 - Prochaine étape : voir ROADMAP, étape 1.
@@ -30,3 +30,4 @@
 ## Journal
 - 8/11/2026 : création du projet, instructions et registres de départ.
 - 8/11/2026 : dépôt GitHub privé « auvabio » créé ; registres de départ déposés (commit initial). Désormais tout passe par PR.
+- 8/11/2026 : décision D-004 : dépôt public sous licence PolyForm Shield 1.0.0, aucune donnée réelle dedans. Passage en public à faire après fusion de la PR de licence.
