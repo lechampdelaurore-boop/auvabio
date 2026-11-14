@@ -1,7 +1,7 @@
 # État du projet AUVABIO
 
 ## Où on en est (mettre à jour à chaque fin de tâche)
-- Date : 8/11/2026. Le projet vient d'être créé. Le dépôt GitHub « auvabio » existe (public après la PR de licence, D-004) et contient les registres de départ. Le reste n'est pas encore fait.
+- Date : 14/11/2026. Dépôt public. Cartes de Zandoly, Socleo et OTF (vente) et comparatif déposés dans docs/outils/ (lecture seule, à vérifier avec Romain). Étape 1 (inventaire des tâches) et mesure des clics restent à faire.
 - Contexte : deux cadres licenciés, passation en une semaine à deux membres du bureau, informations perdues. Un nouvel employé, Romain, remplace les deux postes.
 - Volets : A (assistant Zandoly/Socleo, recopie, veille des prix), B (documentation), C (module sur mesure adossé à OTF).
 - Prochaine étape : voir ROADMAP, étape 1.
