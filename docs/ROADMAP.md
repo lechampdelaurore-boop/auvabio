@@ -14,6 +14,7 @@
 | 8 | Recopie Zandoly → Socleo : étude de faisabilité (export, import, API) puis tableau prêt à saisir | A | Opus 5.5 · Élevé | à faire |
 | 9 | Cahier des charges du module collectif (planification collective, stock collectif) | C | Opus 5.5 · Élevé | à faire |
 | 10 | Accès API OTF : questions à OTF, accord, démonstration | C | Sonnet 5.5 · Moyen | à faire |
+| 10 bis | Extraction complète des données de Socleo et de Zandoly (commandes, clients, produits, stocks, offres, planifications, historiques), en lecture seule, sauvegardées hors dépôt, puis plan de transfert vers le nouvel outil. Rien ne doit être perdu. | A/C | Opus 5.5 · Élevé | à faire, avant toute bascule |
 | 11 | Code du module, par tranches | C | Opus 5.5 · Élevé (à confirmer) | après 9 et 10 |
 
 ## 2. Ordre
