@@ -40,7 +40,7 @@ Limite : l'aide décrit l'offre complète de Socleo. Certaines fonctions sont «
 - Comptabilité : index, démarrer, banque, cahiers de caisse, cahiers reliés à un compte de paiement, import des ventes, comptabilité d'engagement, justificatifs, autoconsommation, immobilisations, TVA, trames, livre des recettes.
 - Imports : séries, produits, tiers, clients, clients d'AMAP (import et export), prix.
 - Éditeur de texte.
-- Non lu : la documentation de l'API (hébergée sur un autre site, non accessible depuis la documentation) ; les limites et règles d'usage de l'API viennent de relevés précédents.
+- **Documentation de l'API : 8 pages lues en entier** (introduction, vue d'ensemble de l'authentification, clé personnelle, OAuth2, scopes, erreurs, limites et journal, vue d'ensemble des routes avec toutes les ressources). Non lue : la référence détaillée route par route (scope, paramètres, corps), qui est derrière une autre page ; à lire quand le module sera cadré.
 
 ## 3. Écrans de Socleo parcourus (compte de consultation, lecture seule)
 | Écran | Parcouru | Remarque |
@@ -72,7 +72,7 @@ Non vus : liste des utilisateurs (contient des adresses), droits, création de c
 
 ## 6. Ce qui reste à faire pour une couverture complète
 1. Refaire le relevé de Socleo et de Zandoly avec un compte administrateur, en lecture seule (décision de François).
-2. Télécharger les manuels listés dans l'aide de Socleo (manuel du coordinateur, du producteur, du comptable, API) : ils contiennent les procédures.
-3. Lire la documentation de l'API d'OTF.
+2. Lire les manuels listés dans l'aide de Socleo (coordinateur vente aux professionnels et aux particuliers, producteur, comptable, fabrication, Chorus Pro, facturation électronique, réception des bons de commande, circuit ouvert) : ils contiennent les procédures. Ce sont des fichiers à télécharger ; en attente de l'accord de François.
+3. Lire la référence détaillée des routes de l'API d'OTF (utile au volet C).
 4. Ouvrir la ferme de démonstration d'OTF pour voir des écrans avec des données.
 5. Mesurer les clics avec Romain.

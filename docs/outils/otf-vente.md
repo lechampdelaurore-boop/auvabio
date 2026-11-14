@@ -45,11 +45,18 @@ Documents de vente (configuration des documents), unités, modes de paiement : �
 ## 4. Facturation
 Les ventes ne peuvent pas être supprimées ; un avoir se fait par une vente en quantités négatives. Import de ventes depuis des documents (offre Gestion).
 
-## 5. API
-- Version bêta ; lecture ouverte aux structures abonnées, écriture bêta seulement.
-- Limites : 4 requêtes par seconde, 30 par minute, 100 par jour avec l'offre Gestion (1 000 par jour avec Pilotage).
-- Un jeton par ferme. Le jeton n'est jamais vu ni écrit par Claude ; la page des clés n'a pas été ouverte.
-- Aucun accord écrit pour l'écriture : rester en lecture seule.
+## 5. API (documentation lue en entier le 14/11/2026)
+Documentation : site dédié (8 pages : introduction, authentification, clés, OAuth2, scopes, erreurs, limites, vue d'ensemble des routes). Elle est en **bêta** et peut changer sans préavis.
+- Adresse : une seule racine versionnée (0.1beta), HTTPS, JSON ; quelques routes rendent un fichier (facture PDF).
+- **Lecture** ouverte aux structures qui ont l'abonnement requis ; **écriture** réservée aux structures qui participent à la bêta (sinon refus « écriture pas ouverte »). Une structure de type AMAP n'a pas accès à l'API.
+- Limites par structure, toutes clés confondues : 4 par seconde, 30 par minute, par jour 100 avec Gestion, 1 000 avec Pilotage, 500 sinon. Jusqu'à 500 éléments par appel ; relecture incrémentale par « identifiant supérieur à » ; journal des appels de 14 jours visible des administrateurs.
+- Authentification : **clé personnelle** (créée par un administrateur dans Données > Intégrations, affichée une seule fois, valable un an, liée à la personne qui l'a créée) ou **OAuth2** avec PKCE pour une application agissant pour plusieurs structures (accès sur demande à OTF, jeton d'une heure). Une clé ou un jeton = une seule structure. Droits de l'administrateur, limités par des **scopes** à quatre domaines, chacun en lecture et en écriture : paramètres, production, vente, gestion. La clé n'est jamais vue ni écrite par Claude.
+- **Ressources utiles à notre module** (vente) : ventes et articles de vente, clients, groupes de clients, produits, catégories, unités, catalogues et offres de catalogue, prix personnalisés par client ou groupe, boutiques, ventes de boutique, **boutiques collectives** (producteurs, rayons, catalogues en boutique, commandes de boutique collective réparties en autant de ventes que de producteurs), points de retrait, marchés et ventes en caisse, encaissements, modes de règlement, **mouvements de stock** d'un produit (le produit est un filtre obligatoire), factures et factures électroniques (lecture), événements de vente.
+- Ressources de gestion : cahiers et opérations de caisse, comptes et opérations bancaires, rapprochements, écritures et journaux (lecture), exercices, plan comptable, tiers, immobilisations, déclarations de TVA, trames, justificatifs.
+- Ressources de production et générales : séries, mises en culture, interventions, récoltes, prévisionnels de récolte, espèces et variétés, itinéraires, matériel, équipe, temps de travail, aides, référentiels de fertilisation et catalogue des produits phytosanitaires.
+- Absent de l'API : tournées, lots et DLC, marges, factures fournisseur, duplication de commandes (comme dans l'application).
+- Une collection Postman est publiée par OTF.
+- Aucun accord écrit pour l'écriture dans notre cas : rester en lecture seule.
 
 ## 6. Offres
 Gestion : 120 € par an HT. Pilotage : 300 € par an HT. Adhésion association à partir de 50 €. Ouverture des abonnements le 16/11/2026 ; toutes les fonctions sont ouvertes jusqu'au 15/11/2026.
@@ -81,4 +88,4 @@ Voir [couverture.md](couverture.md).
 - **Page d'accueil du site OTF** : mentionne aussi des relevés de prix (prix constatés chez les producteurs utilisateurs) et un outil de recherche d'aides agricoles.
 
 ## 8. Non relevé
-Écrans avec données (ferme vide), formulaire complet de vente, catalogues et boutiques remplis, site internet, e-mailing, abonnement, intégrations, documentation de l'API, ferme de démonstration publique d'OTF.
+Écrans avec données (ferme vide), formulaire complet de vente, catalogues et boutiques remplis, site internet, e-mailing, abonnement, intégrations, ferme de démonstration publique d'OTF (une adresse est publiée sur la page d'accueil).

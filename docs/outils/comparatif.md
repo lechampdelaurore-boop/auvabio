@@ -47,7 +47,7 @@ Rappel : Zandoly et Socleo vont par deux chez nous. On compare donc le duo à OT
 | Cahiers de caisse (espèces, cartes Stripe et SumUp synchronisés), caisse hors ligne (bêta), terminal SumUp | Oui | Socleo : module Caisse décrit, absent du menu consulté. |
 | Module AMAP complet (contrats, souscriptions, règlements, permanences) | Oui | Socleo : module Contrats décrit (abonnements), absent du menu consulté. |
 | Cagnotte rechargeable des clients | Oui | Socleo : crédit du compte client et reliquats. |
-| API documentée, ouverte aux abonnés | Lecture ouverte, écriture en bêta | Socleo : API « Circuit ouvert » gratuite sur demande, en maintenance seule. Zandoly : aucune API connue. |
+| API documentée, ouverte aux abonnés (ventes, clients, produits, catalogues, boutiques collectives, stocks, factures, comptabilité) | Lecture ouverte, écriture en bêta ; clé par structure ou OAuth2 pour une application servant plusieurs fermes | Socleo : API « Circuit ouvert » gratuite sur demande, en maintenance seule. Zandoly : aucune API connue. |
 | Export des données en CSV (ventes, factures, produits, clients, cahiers de caisse, plan de culture) ; import CSV (produits, clients, prix, tiers, plan de culture) | Oui | Socleo : exports et imports par fichiers, archives comptables ZIP. |
 | Import de ventes depuis une photo de ticket, une facture PDF ou un message (bêta, offre Gestion) | Oui | Non trouvé. |
 | Relevés de prix, aides agricoles | Oui | Non. |
@@ -128,4 +128,4 @@ Sources de risque et de décision :
 - Certaines fonctions peuvent exister sans être documentées ; seule une démonstration en saisie, avec accord d'OTF, le dirait.
 - L'aide de Socleo décrit l'offre complète : pas toutes les fonctions sont activées chez nous.
 - Le relevé de Socleo et de Zandoly est partiel (comptes non administrateurs).
-- Documentation de l'API d'OTF non lue en entier.
+- Référence détaillée des routes de l'API d'OTF non lue (la vue d'ensemble l'est) ; manuels téléchargeables de Socleo non lus.
