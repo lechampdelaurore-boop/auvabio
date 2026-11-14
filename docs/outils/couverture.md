@@ -25,7 +25,22 @@ Règle suivie : une chose lisible est lue. Seuls restent « non vus » les élé
 | Caisse | 20 | oui |
 | Socleo et vous | 8 | oui |
 | Interopérabilité (API « Circuit ouvert ») | 1 | oui |
-| Tutoriels | 1 | oui (liste de manuels à télécharger : non téléchargés) |
+| Tutoriels | 1 | oui (liste de manuels ; voir §1 bis) |
+
+## 1 bis. Manuels officiels de Socleo (déposés par François)
+| Manuel | Pages | Lu |
+|---|---|---|
+| Coordinateur, vente aux professionnels | 39 | oui, en entier |
+| Producteur | 26 | oui, en entier |
+| API « Circuit ouvert » 2.4.0 | 30 | oui (procédure et actions ; annexes survolées) |
+| Module fabrication | 37 | partiellement : sommaire et paramétrage du stock ; le reste est survolé (module de transformation, peu utile chez nous) |
+| Chorus Pro | 5 | oui, en entier |
+| Intégration du paiement Axepta | 3 | oui, en entier |
+| Coordinateur, vente aux particuliers | | **non reçu** |
+| Comptable | | **non reçu** |
+| Réception des bons de commande par e-mail | | **non reçu** |
+| Notes des autres prestataires de paiement, manuel de nom de domaine | | non reçus ; peu utiles au cadrage |
+| Guide de facturation électronique | | article de l'aide, déjà lu (rubrique Facturation électronique) |
 
 Limite : l'aide décrit l'offre complète de Socleo. Certaines fonctions sont « sur demande » ou réservées à certaines offres ; sans compte administrateur, on ne sait pas lesquelles sont activées chez nous.
 
@@ -72,7 +87,7 @@ Non vus : liste des utilisateurs (contient des adresses), droits, création de c
 
 ## 6. Ce qui reste à faire pour une couverture complète
 1. Refaire le relevé de Socleo et de Zandoly avec un compte administrateur, en lecture seule (décision de François).
-2. Lire les manuels listés dans l'aide de Socleo (coordinateur vente aux professionnels et aux particuliers, producteur, comptable, fabrication, Chorus Pro, facturation électronique, réception des bons de commande, circuit ouvert) : ils contiennent les procédures. Ce sont des fichiers à télécharger ; en attente de l'accord de François.
+2. Lire les trois manuels Socleo non reçus (vente aux particuliers, comptable, réception des bons de commande) : François peut les déposer dans le fil.
 3. Lire la référence détaillée des routes de l'API d'OTF (utile au volet C).
 4. Ouvrir la ferme de démonstration d'OTF pour voir des écrans avec des données.
 5. Mesurer les clics avec Romain.

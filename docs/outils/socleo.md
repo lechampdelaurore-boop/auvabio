@@ -120,7 +120,10 @@ Voir [couverture.md](couverture.md). Tout ce qui suit vient de l'aide en ligne (
 - **Facturation électronique** : format Factur-X, plateforme agréée SUPER PDP (la même qu'OTF), phase pilote ; limitée à certaines interfaces.
 - **Site** : site vitrine, pages, éditeur, suivi d'audience, domaine, mentions légales.
 - **Droits** : rôles par périmètre de groupe, droits « chargement » et « livraison » pour des externes, droit fournisseur « gestion des disponibilités ».
-- **Manuels** : l'aide liste des manuels téléchargeables (coordinateur, producteur, comptable, module fabrication, Chorus Pro, API) : probablement la meilleure source pour les procédures. Non téléchargés.
+- **Manuels** : six manuels officiels lus (coordinateur vente aux professionnels, producteur, API, fabrication en partie, Chorus Pro, paiement Axepta) ; trois restent à recevoir (vente aux particuliers, comptable, bons de commande par e-mail). Voir couverture.md.
+- **Côté fournisseur (manuel producteur)** : avec les droits donnés par le coordinateur, une ferme crée et duplique ses produits, indique disponibilité, quantité et saisonnalité, voit et ajuste ses commandes (poids, quantité, lot, DLC), édite ses bons de livraison, s'inscrit aux dates de livraison et aux permanences, gère son stock. À confirmer chez nous : ces droits sont-ils donnés aux fermes ?
+- **Stock (manuel coordinateur)** : trois comptes clients techniques à créer (réception, mouvements d'inventaire, pertes) ; stock en achat-revente ou en dépôt-vente ; l'inventaire sert à corriger des écarts, jamais à déclarer des entrées.
+- **API Circuit ouvert 2.4** : actions de lecture des produits, commandes, lignes de commande, livraisons, inventaire, clients ; écriture de produits, commandes (client créé s'il n'existe pas) et inventaires ; échanges signés par une clé de 40 caractères (jamais vue ni écrite).
 - **Sauvegarde** : données conservées 10 ans ; les e-mails envoyés par Socleo ne sont pas stockés.
 
 ### 7.3 Risques supplémentaires à mettre dans les procédures

@@ -121,11 +121,11 @@ Rappel : Zandoly et Socleo vont par deux chez nous. On compare donc le duo à OT
 Sources de risque et de décision :
 - OTF dit ne pas prendre de demandes de fonctionnalités et conseille de ne pas l'utiliser si une fonction structurante manque. Le module vit à côté, via l'API (100 appels par jour avec Gestion, 1 000 avec Pilotage), sans compter sur OTF pour ces fonctions.
 - Question à OTF : faut-il compter sur les lots (priorité élevée) pour les prochains mois ? À poser à l'étape 10.
-- **Question de fond pour le bureau** : d'après l'aide, Socleo sait faire saisir les disponibilités par les fournisseurs, ce que Zandoly fait avec les offres. Ce service est-il activé chez nous ? Pourquoi deux outils aujourd'hui ? La réponse change le cadrage du module.
+- **Question de fond pour le bureau** : d'après l'aide, Socleo sait faire saisir les disponibilités par les fournisseurs, ce que Zandoly fait avec les offres. Le manuel producteur le confirme : une ferme avec les droits crée ses produits, indique disponibilité, quantité et saisonnalité, et s'inscrit aux dates de livraison. Ce service est-il activé chez nous ? Pourquoi deux outils aujourd'hui ? La réponse change le cadrage du module.
 - Les économies possibles ne sont pas seulement celles des abonnements : la comptabilité d'OTF peut remplacer des exports et une saisie ailleurs (à chiffrer).
 
 ## 8. Limites
 - Certaines fonctions peuvent exister sans être documentées ; seule une démonstration en saisie, avec accord d'OTF, le dirait.
 - L'aide de Socleo décrit l'offre complète : pas toutes les fonctions sont activées chez nous.
 - Le relevé de Socleo et de Zandoly est partiel (comptes non administrateurs).
-- Référence détaillée des routes de l'API d'OTF non lue (la vue d'ensemble l'est) ; manuels téléchargeables de Socleo non lus.
+- Référence détaillée des routes de l'API d'OTF non lue (la vue d'ensemble l'est) ; trois manuels Socleo non reçus (vente aux particuliers, comptable, bons de commande par e-mail) ; manuel de fabrication lu en partie.
