@@ -1,5 +1,8 @@
 # Carte de Zandoly
 
+
+> **Relevé partiel : compte non administrateur.** Ce relevé a été fait avec un compte sans droits d'administration (le compte Socleo est en consultation seule). Il manque sûrement des écrans, des boutons, des modules (par exemple Comptabilité, Caisse, paramétrage, droits, comptes, éditions) et des fonctions réservées aux administrateurs. Une absence dans cette fiche veut dire « non vu », pas « n'existe pas ». À refaire avec un compte administrateur, en lecture seule, quand François le décidera.
+
 Statut : **à vérifier** (relevé du 14/11/2026, lecture seule, compte de ferme). Voir [README.md](README.md) pour la lecture des positions (fenêtre 1224 × 862).
 
 ## À quoi sert Zandoly
