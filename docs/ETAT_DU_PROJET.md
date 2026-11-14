@@ -28,6 +28,7 @@
 - Fournir l'accès aux deux logiciels pour le scan (il se connecte lui-même ; Claude ne voit aucun mot de passe).
 
 ## Journal
+- 14/11/2026 : premier relevé de Zandoly en lecture seule (François connecté) ; carte de structure dans docs/outils/zandoly.md, détail avec données hors dépôt. Rien modifié dans Zandoly.
 - 8/11/2026 : création du projet, instructions et registres de départ.
 - 8/11/2026 : dépôt GitHub privé « auvabio » créé ; registres de départ déposés (commit initial). Désormais tout passe par PR.
 - 8/11/2026 : décision D-004 : dépôt public sous licence PolyForm Shield 1.0.0, aucune donnée réelle dedans. Passage en public à faire après fusion de la PR de licence.
