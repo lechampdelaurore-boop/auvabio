@@ -5,8 +5,8 @@
 |---|---|---|---|---|
 | 1 | Inventaire des tâches des deux anciens cadres (entretien avec les deux membres du bureau, un gabarit de questions) | B | Sonnet 5.5 · Moyen | à faire |
 | 2 | Carte de Zandoly : scan complet des écrans et boutons, avec captures | A/B | Sonnet 5.5 · Moyen | en cours (carte avec positions faite le 14/11 ; captures et compte administrateur à faire) |
-| 3 | Carte de Socleo : idem | A/B | Sonnet 5.5 · Moyen | carte faite le 14/11 (docs/outils/socleo.md) ; écrans de saisie et captures à faire |
-| 3 bis | Carte d'OTF (vente) et comparatif avec le duo Zandoly + Socleo | C | Sonnet 5.5 · Moyen | cartes et comparatif faits le 14/11 (docs/outils/) ; mesure des clics avec Romain à faire |
+| 3 | Carte de Socleo : idem | A/B | Sonnet 5.5 · Moyen | carte faite le 14/11 (docs/outils/socleo.md), aide lue en entier ; écrans de saisie, compte administrateur et captures à faire |
+| 3 bis | Carte d'OTF (vente) et comparatif avec le duo Zandoly + Socleo | C | Sonnet 5.5 · Moyen | cartes et comparatif faits le 14/11 (docs/outils/), documentation OTF lue en entier ; mesure des clics avec Romain à faire |
 | 4 | Procédures prioritaires (vente du jeudi, facturation, tournées, etc.), écrites avec captures | B | Sonnet 5.5 · Moyen | à faire |
 | 5 | Kit Romain : instructions + cartes + procédures, à charger dans son compte | A | Sonnet 5.5 · Moyen | à faire |
 | 6 | Fiches visuelles à afficher | B | Sonnet 5.5 · Moyen | à faire |

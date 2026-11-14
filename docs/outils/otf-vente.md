@@ -54,5 +54,31 @@ Les ventes ne peuvent pas être supprimées ; un avoir se fait par une vente en 
 ## 6. Offres
 Gestion : 120 € par an HT. Pilotage : 300 € par an HT. Adhésion association à partir de 50 €. Ouverture des abonnements le 16/11/2026 ; toutes les fonctions sont ouvertes jusqu'au 15/11/2026.
 
-## 7. Non relevé
-Écrans avec données (ferme vide), formulaire complet de vente, catalogues et boutiques remplis, site internet, e-mailing, export comptable, intégrations.
+## 7. Compléments du 14/11/2026 : menu complet et documentation lue en entier
+Voir [couverture.md](couverture.md).
+
+### 7.1 Menu complet de la ferme de test (vu)
+- **Accueil** : tableau de bord (bêta), notes, équipe, nouveautés, prévisions météo sur 13 jours.
+- **Production** : planning (quotidien, hebdomadaire, annuel, nouveau planning en bêta), plan de culture, plan d'assolement, prévisionnel financier, semences et plants, itinéraires techniques, plan de la ferme, boîte à outils, analyses (temps de travail, cultures).
+- **Vente** : Ventes, Clients, Produits, Catalogues, Boutiques en ligne, Caisse enregistreuse, Site internet, E-mailing.
+- **Gestion** : facturation électronique, banque, cahiers de caisse, précomptabilité, comptabilité (livre journal, grand livre, balance, immobilisations, synthèse).
+- **Paramètres** : administratif, profil, TVA, fonctionnalités, abonnement, production, commercialisation, comptabilité, facturation électronique, exporter les données, importer des données, intégrations (clés d'API : jamais ouvertes).
+
+### 7.2 Écrans vus
+- **Produits** : huit types : origine végétale, origine animale, alimentaire transformé, non alimentaire, composé (panier, bouquet), autre, prestation de service, frais de livraison.
+- **Paramètres de commercialisation** : devis, bons de livraison et factures (coordonnées, mentions, textes) ; export des commandes en PDF (nombre par page, tri) ; modes de livraison (points de retrait et livraisons proposés aux clients) ; e-mails (messages aux clients et heure d'envoi) ; unités de vente ; modes de règlement ; paiement par carte (Stripe, SumUp) ; cagnottes ; précomptabilité (numéros de compte des ventes et frais de livraison).
+- **Fonctionnalités** : production, temps de travail, RH (réservée aux offres Gestion et Pilotage à partir du 16/11/2026) ; en bêta, réservées aux adhérents de l'association OTF : caisse hors ligne, paiement au terminal SumUp, import de ventes (photo de ticket, facture PDF ou message ; réservé à l'offre Gestion), justificatifs.
+- **Exporter les données** : par année : plan de culture, assolement, plan de la ferme, temps de travail, interventions, récoltes, ventes, articles vendus, factures, cahiers de caisse ; données intégrales : produits, clients.
+
+### 7.3 Ce que dit la documentation (49 pages lues en entier)
+- **Prix** : prix distincts professionnel (HT) et particulier (TTC) ; hiérarchie : prix de base, puis catalogue ou boutique, puis groupe de clients, puis client.
+- **Boutiques** : personnelles ou collectives (groupe de producteurs, code d'invitation) ; pas de choix du paiement ni de frais de livraison dans une boutique collective ; paiement en ligne Stripe ou SumUp, liens de paiement (hors boutique collective).
+- **Facturation** : acomptes, facturation mensuelle, avoir par vente négative, facturation électronique par la plateforme SUPER PDP (Chorus Pro annoncé).
+- **Imports CSV** : produits (champ « distribution » production ou revente ; une réimportation écrase toutes les valeurs), clients, prix, tiers, plan de culture, adhérents d'AMAP.
+- **AMAP** : contrats, souscriptions, règlements, permanences, adhésions, formulaire d'inscription.
+- **Comptabilité** : treize pages (banque, cahiers de caisse, cahiers reliés à Stripe ou SumUp, import des ventes en écritures, comptabilité d'engagement, justificatifs, immobilisations, TVA, trames, livre des recettes, autoconsommation) ; la comptabilité est en grande partie automatique à partir des ventes rapprochées en banque.
+- **Absents de la documentation** : tournées, chargement et livraison mobile, lots et DLC, marge et facture pour le compte d'autres fermes, facture fournisseur, duplication de commandes, disponibilités saisies par plusieurs fournisseurs, consignes.
+- **Page d'accueil du site OTF** : mentionne aussi des relevés de prix (prix constatés chez les producteurs utilisateurs) et un outil de recherche d'aides agricoles.
+
+## 8. Non relevé
+Écrans avec données (ferme vide), formulaire complet de vente, catalogues et boutiques remplis, site internet, e-mailing, abonnement, intégrations, documentation de l'API, ferme de démonstration publique d'OTF.

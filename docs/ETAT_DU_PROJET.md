@@ -1,7 +1,7 @@
 # État du projet AUVABIO
 
 ## Où on en est (mettre à jour à chaque fin de tâche)
-- Date : 14/11/2026. Dépôt public. Cartes de Zandoly, Socleo et OTF (vente) et comparatif déposés dans docs/outils/ (lecture seule, à vérifier avec Romain). Étape 1 (inventaire des tâches) et mesure des clics restent à faire.
+- Date : 14/11/2026. Dépôt public. Cartes de Zandoly, Socleo et OTF (vente) et comparatif déposés dans docs/outils/ (lecture seule, à vérifier avec Romain). Aide de Socleo (833 sections) et documentation d'OTF (49 pages) lues en entier le 14/11 ; liste de couverture dans docs/outils/couverture.md. Étape 1 (inventaire des tâches) et mesure des clics restent à faire.
 - Contexte : deux cadres licenciés, passation en une semaine à deux membres du bureau, informations perdues. Un nouvel employé, Romain, remplace les deux postes.
 - Volets : A (assistant Zandoly/Socleo, recopie, veille des prix), B (documentation), C (module sur mesure adossé à OTF).
 - Prochaine étape : voir ROADMAP, étape 1.
@@ -33,3 +33,4 @@
 - 8/11/2026 : dépôt GitHub privé « auvabio » créé ; registres de départ déposés (commit initial). Désormais tout passe par PR.
 - 8/11/2026 : décision D-004 : dépôt public sous licence PolyForm Shield 1.0.0, aucune donnée réelle dedans. Passage en public à faire après fusion de la PR de licence.
 - 14/11/2026 : cartes des trois outils et comparatif (docs/outils/), relevé en lecture seule ; rien saisi ni modifié.
+- 14/11/2026 : lecture intégrale de l'aide de Socleo et de la documentation d'OTF ; comparatif refait ; question de fond au bureau : le service « disponibilités par fournisseur » de Socleo est-il activé chez nous ?

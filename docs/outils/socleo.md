@@ -87,5 +87,50 @@ Filtrer (258, 62) ; Tous (407, 62) ; Clients (454, 62) ; Fournisseurs (531, 62) 
 - Aucune annulation d'un import ; peu de garde-fous.
 - Comptabilité absente du menu du compte consulté (autre compte probable).
 
-## 7. Non relevé
-Boutons au bout des lignes de données, écrans de saisie (commande, fiche produit, fiche membre), Chargement et Livraisons en détail, module Comptabilité, éditions autres que le bon de livraison.
+## 7. Compléments du 14/11/2026 : écrans parcourus et aide lue en entier
+Voir [couverture.md](couverture.md). Tout ce qui suit vient de l'aide en ligne (décrit, non testé, pas forcément activé chez nous) ou d'un écran parcouru (marqué « vu »).
+
+### 7.1 Ce que montrent les écrans (vu)
+- **Commandes** : fenêtres cachées dans la page : saisie d'une commande, duplication (fréquence et nombre de répétitions, date), facturation (une facture globale ou une facture par client), versement (onze modes : chèque, espèces, virement, carte, bon d'achat, prélèvement, paiement différé, monnaies locales, lettre de change, autre), calcul des emballages réemployables, export des données de réception, changement de fournisseur. Quatre modes logistiques de ligne : livraison en direct, en transit, entrée en stock, expédition de stock. Six favoris de filtres déjà enregistrés. Des pastilles de ligne : non notifiée, validée, modifiée depuis la notification.
+- **Stock** : « Afficher les produits en rupture » ; trois lectures (Stock, Stock + Transit, Transit) ; colisage livraison ou unité ; filtres supplémentaires : étiquette (bio, sélection, anti-gaspi, produit à l'unité, prestation producteur, disponibilité garantie), secteur, famille, groupe fournisseur (dont un groupe par année d'adhésion), type de stock (par produit ou par lot), **gestion des lots**, **DLC en alerte**, catégorie (adhésion, catalogue, consigne, emballage réemployable, facture fournisseur, frais de port, prestation), agriculture (bio, conversion, sans engrais ni pesticides, biodynamie), conditionnement, zone de stockage, précommande, saisonnalité, catégorie comptable. Environ 46 produits en stock.
+- **Approvisionnement** : colonnes Aujourd'hui, Rec., Exp., Dans le futur, Risque de rupture, Actions ; date de visualisation du stock théorique ; mêmes filtres plus « Fournisseur auprès de ». Environ 89 produits.
+- **Tournées** : même barre jour, semaine, mois, libre ; une liste d'une vingtaine de plans de tournée (par secteur et par jour) ; aucune tournée à la date vue.
+- **Produits** : environ 78 produits visibles ; onglets de secteurs et de familles ; colonnes désignation, délai de commande, tarif fournisseur, prix de vente HT, marge ; boutons Exporter, Éditer, Taux de marque, Produit disponible ; fenêtres cachées : étiquette de répartition, « Visualiser les quantités disponibles pour », import (fichier, action, tester), « Affecter en tant que », période de livraison.
+- **Activités** : jour, semaine, mois, libre ; catégories rendez-vous, appel, e-mail, rappel ; actions : dupliquer, supprimer, modifier ; import d'activités (Enregistrer, Tester le fichier, option de retrait des activités absentes). Vide sur la période.
+- **Demandes** : statuts ouvertes, clôturées, toutes ; types réception, préparation, inventaire, livraison, demande client, demande fournisseur ; action « Changer le statut » ; export. Vide sur la période.
+- **Membres** : filtre par rôle (tous, clients, fournisseurs, coordinateurs) ; onglets Général, Commandes, Comptes, Adhésions, Emballages réemployables ; une quarantaine de champs de fiche (raison sociale, profil, type d'établissement, SIRET, groupe, rôle, état de relance...) ; actions « Envoyer un message », « Envoyer le message de bienvenue », extraction, import de membres. Quelques favoris de relance hebdomadaire.
+- **Mon compte (vue client)** : onglets Commander, Mes achats, Mes informations, Mes demandes ; deux listes Commandes et Factures ; commande type ; panier ; fenêtres cachées : copier la commande, dupliquer sur une date ou sur un intervalle (répéter toutes les x semaines), déplacer le brouillon, nouveau versement, nouvel abonnement, créditer mon compte, modifier la livraison.
+- **Boutique « Commander »** : s'ouvre sur un calendrier pour choisir la date de livraison.
+- **Chargement et Livraisons** : s'ouvrent vides sur ordinateur (écrans mobiles) ; non cliqués.
+
+### 7.2 Ce que décrit l'aide (lu en entier)
+- **Disponibilités par fournisseur** : chaque fournisseur ayant le droit « gestion des disponibilités » saisit sa quantité et son état ; le coordinateur voit la somme ; quantité restante calculée ; prix et quantité par fournisseur et par période. C'est la fonction la plus proche de l'offre hebdomadaire de Zandoly.
+- **Stock** : par produit ou par lot, à l'unité ou au poids ; seuil d'alerte, stock de sécurité, niveau de réapprovisionnement ; DLC/DDM avec délai d'alerte ; rapprochement commande/lot en trois modes ; DLC dépassée = rapprochement impossible ; inventaire manuel ou par fichier ; pertes ; suppression automatique des produits à stock nul sans mouvement le 1er du mois.
+- **Rupture à la commande** : affecter au fournisseur, autoriser avec ou sans notification, bloquer.
+- **Livraisons (module calendrier)** : dates de livraison avec ouverture et fermeture des commandes, producteurs disponibles par date, points de retrait, permanences ; duplication de semaines types ; modes de livraison (sur un lieu, à domicile, relais) ; frais de port de cinq types ; lieux avec créneaux ; ordres de transport électroniques pour deux transporteurs ; casiers de distribution.
+- **Tournées** : plans fixes, tournées quotidiennes optimisées par un partenaire, export GPX, chargement et livraison sur mobile avec signature et justificatif envoyé au client, tableau de bord par état (nouvelle, en cours, en pause, terminée).
+- **Emballages réemployables** : produit et conditionnement de livraison par emballage, niveaux chez chaque client, inventaire automatique mensuel.
+- **Offres et remises** : par catalogue, secteur, fournisseur ou produit ; priorités ; remise figée à la création de la commande (« Propager le tarif catalogue » pour mettre à jour).
+- **Contrats** : abonnements de livraisons récurrentes (module absent du menu consulté).
+- **Demandes** : non-conformités avec motifs, sévérité, préjudice, commentaires, clôture.
+- **Activités** : agenda client, relances périodiques, états « Relancée » et « Mise en demeure » des factures.
+- **Fabrication** : ordres de fabrication pour transformateurs.
+- **Caisse** : webcaisse avec ticket Z inaltérable (module absent du menu consulté).
+- **Comptabilité** : facturation client globale ou par bon, avoirs de trois façons, factures fournisseur et justificatifs, facturation pour le compte des producteurs, relances, paiement en ligne, rapprochement bancaire par un service tiers, prélèvements SEPA, virements aux fournisseurs, Chorus Pro, exports comptables, **archives comptables** (ZIP de PDF et CSV, irréversibles : à télécharger avant toute bascule).
+- **Facturation électronique** : format Factur-X, plateforme agréée SUPER PDP (la même qu'OTF), phase pilote ; limitée à certaines interfaces.
+- **Site** : site vitrine, pages, éditeur, suivi d'audience, domaine, mentions légales.
+- **Droits** : rôles par périmètre de groupe, droits « chargement » et « livraison » pour des externes, droit fournisseur « gestion des disponibilités ».
+- **Manuels** : l'aide liste des manuels téléchargeables (coordinateur, producteur, comptable, module fabrication, Chorus Pro, API) : probablement la meilleure source pour les procédures. Non téléchargés.
+- **Sauvegarde** : données conservées 10 ans ; les e-mails envoyés par Socleo ne sont pas stockés.
+
+### 7.3 Risques supplémentaires à mettre dans les procédures
+7. « Forcer la mise à jour des livraisons existantes » (duplication de livraisons) : écrase.
+8. Import de contacts en mode « Remplacer » : supprime les contacts absents du fichier.
+9. Import d'inventaire d'un produit par lot : tout lot absent du fichier est clôturé à stock nul.
+10. « Calcul des emballages réemployables » : recréé à chaque clic.
+11. Option « Supprimer du site distant les produits non sélectionnés » (copie entre sites) : non pertinente chez nous, à connaître.
+12. Produits à stock nul sans mouvement : supprimés le 1er du mois.
+13. Archivage comptable : irréversible ; fige la période.
+
+## 8. Non relevé
+Comptabilité, Caisse, Paramétrage, droits et rôles, Contrats, Offres, Fabrication (absents du menu consulté), boutons au bout des lignes de données, écrans de saisie (nouvelle commande, fiche produit, fiche membre : non ouverts pour ne rien enregistrer), Chargement et Livraisons en détail, manuels téléchargeables.

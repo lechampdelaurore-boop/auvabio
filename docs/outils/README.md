@@ -2,7 +2,7 @@
 
 Ces fiches décrivent à quoi sert chaque outil, ses menus, ses écrans, ses boutons et leur emplacement. Elles servent à écrire les procédures (docs/procedures/), à préparer l'assistant de Romain et à cadrer le volet C.
 
-**Statut général : à vérifier.** Relevés faits le 14/11/2026, en lecture seule, avec un compte de consultation. Rien n'a été saisi, enregistré ni validé dans Zandoly ni Socleo. Les écrans de saisie ont été ouverts puis quittés sans enregistrer.
+**Statut général : à vérifier.** Relevés faits le 14/11/2026, en lecture seule, avec un compte de consultation. L'aide en ligne de Socleo (833 sections) et la documentation d'OTF (49 pages) ont été lues en entier : voir [couverture.md](couverture.md). Rien n'a été saisi, enregistré ni validé dans Zandoly ni Socleo. Les écrans de saisie ont été ouverts puis quittés sans enregistrer.
 
 > **Relevé partiel : compte non administrateur.** Ce relevé a été fait avec un compte sans droits d'administration (le compte Socleo est en consultation seule). Il manque sûrement des écrans, des boutons, des modules (par exemple Comptabilité, Caisse, paramétrage, droits, comptes, éditions) et des fonctions réservées aux administrateurs. Une absence dans cette fiche veut dire « non vu », pas « n'existe pas ». À refaire avec un compte administrateur, en lecture seule, quand François le décidera.
 
@@ -17,6 +17,8 @@ Ces fiches décrivent à quoi sert chaque outil, ses menus, ses écrans, ses bou
 | [zandoly.md](zandoly.md) | Zandoly | offres hebdomadaires et planification commune des fermes |
 | [socleo.md](socleo.md) | Socleo (site de l'association) | commandes, stock, tournées, facturation, membres |
 | [otf-vente.md](otf-vente.md) | Ouvre ta ferme (OTF), partie vente | outil cible, boutiques, clients, produits, facturation, API |
+| [comparatif.md](comparatif.md) | Zandoly + Socleo face à OTF | ce que chacun fait ou non, défauts, besoins du module |
+| [couverture.md](couverture.md) | Les trois outils | liste de tout ce qui a été lu et parcouru, et de ce qui reste non vu |
 
 ## Comment lire les emplacements
 - Les positions sont mesurées avec une fenêtre de navigateur de **1224 × 862 pixels** (largeur × hauteur de la page).
