@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-11-14
+- Décision D-006 : mesure des clics avec Romain abandonnée ; retirée des points restants.
 - Décision D-005 et étape 10 bis de la roadmap : extraction complète des données de Socleo et Zandoly avant la bascule.
 - Lecture intégrale de l'aide de Socleo (833 sections) et de la documentation d'OTF (49 pages) ; ajout de docs/outils/couverture.md ; comparatif refait ; fiches Socleo et OTF complétées (écrans parcourus, fonctions décrites, risques). Aucune donnée réelle.
 - Ajout de docs/outils/ : README (lecture des positions), socleo.md, otf-vente.md, comparatif.md ; zandoly.md réécrit avec positions. Aucune donnée réelle.

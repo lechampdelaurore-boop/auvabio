@@ -1,7 +1,7 @@
 # État du projet AUVABIO
 
 ## Où on en est (mettre à jour à chaque fin de tâche)
-- Date : 14/11/2026. Dépôt public. Cartes de Zandoly, Socleo et OTF (vente) et comparatif déposés dans docs/outils/ (lecture seule, à vérifier avec Romain). Aide de Socleo (833 sections) et documentation d'OTF (49 pages) lues en entier le 14/11 ; liste de couverture dans docs/outils/couverture.md. Étape 1 (inventaire des tâches) et mesure des clics restent à faire.
+- Date : 14/11/2026. Dépôt public. Cartes de Zandoly, Socleo et OTF (vente) et comparatif déposés dans docs/outils/ (lecture seule, à vérifier avec Romain). Aide de Socleo (833 sections) et documentation d'OTF (49 pages) lues en entier le 14/11 ; liste de couverture dans docs/outils/couverture.md. Étape 1 (inventaire des tâches) reste à faire ; mesure des clics abandonnée (D-006).
 - Contexte : deux cadres licenciés, passation en une semaine à deux membres du bureau, informations perdues. Un nouvel employé, Romain, remplace les deux postes.
 - Volets : A (assistant Zandoly/Socleo, recopie, veille des prix), B (documentation), C (module sur mesure adossé à OTF).
 - Prochaine étape : voir ROADMAP, étape 1.
