@@ -12,12 +12,12 @@ Rappel : Zandoly et Socleo vont par deux chez nous. On compare donc le duo à OT
 | Mercuriale : prix et quantités de toutes les fermes par date de livraison | Zandoly | Sortie à produire sans recopie. |
 | Stocks de longue conservation partagés (palox, entrepôt) | Zandoly | À cadrer. |
 | Référentiel commun d'environ 960 produits avec conditionnements et facteur kg par colis | Zandoly | À nettoyer (variantes). |
-| Vente d'une ferme **pour le compte d'autres fermes** avec marge, tarif fournisseur et tarif client par ligne | Socleo | Boutique collective OTF : sans choix du paiement ni frais de livraison ; marge à vérifier. |
-| Facture fournisseur globale ou par client | Socleo | À vérifier dans OTF. |
-| Tournées : plans fixes, chargement, livraison sur mobile, consignes et emballages réemployables | Socleo | Absent du relevé OTF vente. |
-| Gestion de stock par lot, DLC, zones, approvisionnement et risque de rupture | Socleo | À vérifier dans OTF. |
+| Vente d'une ferme **pour le compte d'autres fermes** avec marge, tarif fournisseur et tarif client par ligne | Socleo | Boutique collective OTF : sans choix du paiement ni frais de livraison, sans paiement en ligne (prévu) ; aucune marge ni facture pour le compte des fermes ; la logistique n'est volontairement pas cadrée. |
+| Facture fournisseur globale ou par client | Socleo | **Non trouvé dans OTF** : la facturation d'OTF part des ventes de la ferme ; achat-revente, marge et facture par ferme ne sont ni documentés ni prévus. À construire. |
+| Tournées : plans fixes, chargement, livraison sur mobile, consignes et emballages réemployables | Socleo | **Absent d'OTF** : ni documentation, ni feuille de route. Seul un export PDF des ventes du jour sert à préparer les livraisons. À construire. |
+| Gestion de stock par lot, DLC, zones, approvisionnement et risque de rupture | Socleo | **Partiel dans OTF** : les catalogues gèrent des disponibilités et un « stock principal » existe, mais les **lots** sont seulement prévus (priorité élevée) et la **DLC** n'est pas mentionnée. Pas d'alertes de rupture documentées. À construire. |
 | Groupes de clients, favoris de filtres, relances en lot | Socleo | Partiellement dans OTF (e-mailing). |
-| Duplication de commandes (récurrence, groupe de clients) | Socleo | À vérifier. |
+| Duplication de commandes (récurrence, groupe de clients) | Socleo | **Non trouvé dans OTF** (ni documentation, ni feuille de route). |
 
 ## 2. Ce qu'OTF fait et que le duo ne fait pas
 | Fonction | Remarque |
@@ -67,9 +67,23 @@ Rappel : Zandoly et Socleo vont par deux chez nous. On compare donc le duo à OT
 2. **Trop de clics pour la moindre action.** Réponse : mesurer le nombre de clics des tâches ci-dessus et se fixer une cible chiffrée.
 3. **Zandoly et Socleo non connectés.** Réponse : une seule source (OTF et le module), la recopie disparaît ; en transition, fichier d'import préparé et contrôlé par un humain.
 
-## 6. Points à vérifier avant le cahier des charges
-- Boutique collective OTF : marge, facture par ferme, frais de livraison.
-- Tournées, chargement, emballages réemployables dans OTF.
-- Stock par lot et DLC dans OTF.
-- Limites API (100 appels par jour avec Gestion) face au volume de lignes.
-- Accord écrit d'OTF pour l'écriture via l'API (aujourd'hui : lecture seule).
+## 6. Vérifications faites le 14/11/2026 (documentation et feuille de route d'OTF)
+Méthode : documentation officielle d'OTF (31 pages lues par mots-clés), FAQ, page des fonctionnalités, feuille de route publique, écrans de la ferme de test (vide). Le site de démonstration d'OTF est indisponible (fermé aux robots). **Aucune vérification en saisie** : une vente ne peut pas être supprimée.
+
+| Point | Résultat |
+|---|---|
+| Stock par lot et DLC | Lots : prévus, priorité élevée. DLC : aucune mention. Stock : « disponibilités » dans les catalogues et un stock principal ; imputation du stock sur toute vente prévue (priorité élevée). Pas d'alerte de rupture trouvée. |
+| Tournées, chargement, livraison mobile | Rien dans la documentation ni la feuille de route. Export PDF des ventes du jour seulement. |
+| Emballages consignés | Aucune mention. |
+| Boutique collective : marge | Aucune mention. |
+| Boutique collective : facture par ferme | Aucune mention ; chaque producteur facture ses propres ventes. À confirmer auprès d'OTF. |
+| Boutique collective : frais de livraison | Impossible (limite documentée), comme le choix du mode de paiement. |
+| Facture fournisseur | Aucune mention. |
+| Duplication de commandes | Aucune mention. |
+| Export des données d'OTF | CSV de la plupart des données, dans Paramètres, « Exporter les données ». |
+
+## 7. Conséquences pour le module complémentaire
+- À construire par nous : offres et planification collectives, mercuriale, marge et facture pour le compte des fermes, tournées et livraisons, emballages consignés, lots et DLC avec alertes, duplication de commandes.
+- Risque : OTF dit ne pas prendre de demandes de fonctionnalités et conseille de ne pas l'utiliser si une fonction structurante manque. Le module doit donc vivre à côté, via l'API (100 appels par jour avec Gestion), sans compter sur OTF pour ces fonctions.
+- Question à OTF : faut-il compter sur les lots (priorité élevée) pour les prochains mois ? À poser à l'étape 10.
+- Limite : certaines fonctions peuvent exister sans être documentées ; seule la démonstration en saisie, avec accord d'OTF, le dirait.
