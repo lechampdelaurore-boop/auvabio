@@ -34,6 +34,8 @@ Rappel : Zandoly et Socleo vont par deux chez nous. On compare donc le duo à OT
 | Prélèvements SEPA, impayés, virements fournisseurs, pointage par reliquat | Socleo | Partiel : rapprochement bancaire (ci-dessous) ; création de prélèvements ou de virements non trouvée. |
 | Chorus Pro (établissements publics) | Socleo | Annoncé seulement. |
 | Ordres de transport électroniques (transporteurs), casiers de distribution | Socleo | Non trouvé. |
+| Réception des bons de commande des clients par e-mail, lus par intelligence artificielle (service payant) | Socleo | Non trouvé. |
+| Accès dédié au comptable (codes comptables, factures, exports) | Socleo | OTF : accès comptable par rôle et droits ; comptabilité intégrée. |
 | Fabrication (ordres de fabrication, composants, DLC calculée) | Socleo | Non trouvé. |
 | Copie et synchronisation de produits entre sites, répartition des disponibilités entre sites | Socleo | Non pertinent chez nous pour l'instant. |
 | Groupes de clients nombreux, favoris de filtres, messages en lot | Socleo | Partiel (e-mailing, groupes de clients). |
@@ -128,4 +130,4 @@ Sources de risque et de décision :
 - Certaines fonctions peuvent exister sans être documentées ; seule une démonstration en saisie, avec accord d'OTF, le dirait.
 - L'aide de Socleo décrit l'offre complète : pas toutes les fonctions sont activées chez nous.
 - Le relevé de Socleo et de Zandoly est partiel (comptes non administrateurs).
-- Référence détaillée des routes de l'API d'OTF non lue (la vue d'ensemble l'est) ; trois manuels Socleo non reçus (vente aux particuliers, comptable, bons de commande par e-mail).
+- Référence détaillée des routes de l'API d'OTF non lue (la vue d'ensemble l'est) ; notes de paiement des autres prestataires et manuel de nom de domaine de Socleo non lus.

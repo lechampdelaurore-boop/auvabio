@@ -36,9 +36,9 @@ Règle suivie : une chose lisible est lue. Seuls restent « non vus » les élé
 | Module fabrication (v7) | 37 | oui, en entier |
 | Chorus Pro | 5 | oui, en entier |
 | Intégration du paiement Axepta | 3 | oui, en entier |
-| Coordinateur, vente aux particuliers | | **non reçu** |
-| Comptable | | **non reçu** |
-| Réception des bons de commande par e-mail | | **non reçu** |
+| Coordinateur, vente aux particuliers | 36 | oui |
+| Accès comptable | 7 | oui, en entier |
+| Réception des bons de commande par e-mail (passerelle) | 4 | oui, en entier |
 | Notes des autres prestataires de paiement, manuel de nom de domaine | | non reçus ; peu utiles au cadrage |
 | Guide de facturation électronique | | article de l'aide, déjà lu (rubrique Facturation électronique) |
 
@@ -87,7 +87,7 @@ Non vus : liste des utilisateurs (contient des adresses), droits, création de c
 
 ## 6. Ce qui reste à faire pour une couverture complète
 1. Refaire le relevé de Socleo et de Zandoly avec un compte administrateur, en lecture seule (décision de François).
-2. Lire les trois manuels Socleo non reçus (vente aux particuliers, comptable, réception des bons de commande) : François peut les déposer dans le fil.
+2. Les neuf manuels de Socleo utiles sont lus. Restent non lus les notes de paiement en ligne des autres prestataires (hors Axepta) et le manuel de nom de domaine, peu utiles au cadrage.
 3. Lire la référence détaillée des routes de l'API d'OTF (utile au volet C).
 4. Ouvrir la ferme de démonstration d'OTF pour voir des écrans avec des données.
 5. Mesurer les clics avec Romain.
