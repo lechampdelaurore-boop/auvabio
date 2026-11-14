@@ -1,5 +1,8 @@
 # Socleo (site de l'association) : carte de l'outil
 
+
+> **Relevé partiel : compte non administrateur.** Ce relevé a été fait avec un compte sans droits d'administration (le compte Socleo est en consultation seule). Il manque sûrement des écrans, des boutons, des modules (par exemple Comptabilité, Caisse, paramétrage, droits, comptes, éditions) et des fonctions réservées aux administrateurs. Une absence dans cette fiche veut dire « non vu », pas « n'existe pas ». À refaire avec un compte administrateur, en lecture seule, quand François le décidera.
+
 Statut : **à vérifier** avec Romain et le bureau. Relevé du 14/11/2026, lecture seule, compte de consultation (menu complet, aucun droit de modification). Version affichée : Socleo 3.4. Voir [README.md](README.md) pour la lecture des positions `(x, y, l × h)`, fenêtre 1224 × 862.
 
 ## 1. À quoi sert Socleo pour nous

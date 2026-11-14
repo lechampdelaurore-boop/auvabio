@@ -1,5 +1,8 @@
 # Comparatif : Zandoly + Socleo face à OTF (vente)
 
+
+> **Relevé partiel : compte non administrateur.** Ce relevé a été fait avec un compte sans droits d'administration (le compte Socleo est en consultation seule). Il manque sûrement des écrans, des boutons, des modules (par exemple Comptabilité, Caisse, paramétrage, droits, comptes, éditions) et des fonctions réservées aux administrateurs. Une absence dans cette fiche veut dire « non vu », pas « n'existe pas ». À refaire avec un compte administrateur, en lecture seule, quand François le décidera.
+
 Statut : **brouillon à vérifier**. Établi le 14/11/2026 à partir des cartes [zandoly.md](zandoly.md), [socleo.md](socleo.md), [otf-vente.md](otf-vente.md), de l'aide en ligne de Socleo et d'un relevé en lecture seule. Aucune donnée réelle. Règle de rédaction : une ligne n'affirme « absent » que si la fonction a été cherchée des deux côtés (écrans et aide). Les nombres de clics sont des **estimations tirées de l'aide et des écrans**, pas des mesures chronométrées : à confirmer avec Romain.
 
 Rappel : Zandoly et Socleo vont par deux chez nous. On compare donc le duo à OTF.

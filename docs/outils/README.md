@@ -4,6 +4,13 @@ Ces fiches décrivent à quoi sert chaque outil, ses menus, ses écrans, ses bou
 
 **Statut général : à vérifier.** Relevés faits le 14/11/2026, en lecture seule, avec un compte de consultation. Rien n'a été saisi, enregistré ni validé dans Zandoly ni Socleo. Les écrans de saisie ont été ouverts puis quittés sans enregistrer.
 
+> **Relevé partiel : compte non administrateur.** Ce relevé a été fait avec un compte sans droits d'administration (le compte Socleo est en consultation seule). Il manque sûrement des écrans, des boutons, des modules (par exemple Comptabilité, Caisse, paramétrage, droits, comptes, éditions) et des fonctions réservées aux administrateurs. Une absence dans cette fiche veut dire « non vu », pas « n'existe pas ». À refaire avec un compte administrateur, en lecture seule, quand François le décidera.
+
+## À voir avec un compte administrateur
+- Zandoly : liste des utilisateurs et droits, validation des offres, création de campagnes et de produits planifiables, paramètres, rapports réservés, stocks de toutes les fermes.
+- Socleo : module Comptabilité, Caisse, Paramétrage (stock, documents, comptabilité), droits et rôles, facturation, envoi des messages et newsletters, écrans de saisie des commandes, fiches produit et membre, éditions autres que le bon de livraison, Chargement et Livraisons, offres, contrats, fabrication.
+- OTF : ferme de test sans données ; à revoir sur la vraie ferme de l'association après abonnement.
+
 ## Index
 | Fiche | Outil | Rôle |
 |---|---|---|
