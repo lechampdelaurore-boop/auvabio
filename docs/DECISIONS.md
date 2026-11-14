@@ -21,3 +21,8 @@ Tranché par : François. Remplace D-003.
 ## D-005 — Extraire toutes les données de Socleo et Zandoly avant la bascule (14/11/2026)
 Avant de quitter Socleo et Zandoly, une extraction complète de leurs données est faite pour ne rien perdre, puis transférée vers le nouvel outil (OTF et module). Elle se fait en lecture seule (exports, puis API si accordée). Les fichiers extraits restent hors dépôt, dans l'espace privé. Aucun transfert n'est écrit dans un outil sans validation humaine écrite. Voir ROADMAP étape 10 bis.
 Tranché par : François.
+
+## D-006 — Abandon de la mesure des clics avec Romain (14/11/2026)
+La mesure du nombre de clics avec Romain n'est plus prévue. Les estimations de clics du comparatif restent des estimations tirées de l'aide et des écrans, non mesurées.
+Raison : François a demandé d'y renoncer.
+Tranché par : François.

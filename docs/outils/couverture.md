@@ -90,4 +90,3 @@ Non vus : liste des utilisateurs (contient des adresses), droits, création de c
 2. Les neuf manuels de Socleo utiles sont lus. Restent non lus les notes de paiement en ligne des autres prestataires (hors Axepta) et le manuel de nom de domaine, peu utiles au cadrage.
 3. Lire la référence détaillée des routes de l'API d'OTF (utile au volet C).
 4. Ouvrir la ferme de démonstration d'OTF pour voir des écrans avec des données.
-5. Mesurer les clics avec Romain.
