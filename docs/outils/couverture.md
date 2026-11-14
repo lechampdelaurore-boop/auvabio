@@ -33,7 +33,7 @@ Règle suivie : une chose lisible est lue. Seuls restent « non vus » les élé
 | Coordinateur, vente aux professionnels | 39 | oui, en entier |
 | Producteur | 26 | oui, en entier |
 | API « Circuit ouvert » 2.4.0 | 30 | oui (procédure et actions ; annexes survolées) |
-| Module fabrication | 37 | partiellement : sommaire et paramétrage du stock ; le reste est survolé (module de transformation, peu utile chez nous) |
+| Module fabrication (v7) | 37 | oui, en entier |
 | Chorus Pro | 5 | oui, en entier |
 | Intégration du paiement Axepta | 3 | oui, en entier |
 | Coordinateur, vente aux particuliers | | **non reçu** |

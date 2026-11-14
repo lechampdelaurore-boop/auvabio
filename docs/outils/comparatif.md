@@ -128,4 +128,4 @@ Sources de risque et de décision :
 - Certaines fonctions peuvent exister sans être documentées ; seule une démonstration en saisie, avec accord d'OTF, le dirait.
 - L'aide de Socleo décrit l'offre complète : pas toutes les fonctions sont activées chez nous.
 - Le relevé de Socleo et de Zandoly est partiel (comptes non administrateurs).
-- Référence détaillée des routes de l'API d'OTF non lue (la vue d'ensemble l'est) ; trois manuels Socleo non reçus (vente aux particuliers, comptable, bons de commande par e-mail) ; manuel de fabrication lu en partie.
+- Référence détaillée des routes de l'API d'OTF non lue (la vue d'ensemble l'est) ; trois manuels Socleo non reçus (vente aux particuliers, comptable, bons de commande par e-mail).
