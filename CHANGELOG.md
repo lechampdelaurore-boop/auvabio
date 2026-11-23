@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-23
+- Ajout de docs/procedures/ : répartition du matin, répartition du soir, inventaire hebdomadaire du stock, facturation mensuelle des prestations. Reconstituées d'après des vidéos ; à vérifier sur le vrai outil ; aucune capture ; aucune donnée réelle (noms, clients, prix retirés).
+- Décision D-007 : transcription des vidéos en local uniquement.
+
 ## 2026-11-14
 - Décision D-006 : mesure des clics avec Romain abandonnée ; retirée des points restants.
 - Décision D-005 et étape 10 bis de la roadmap : extraction complète des données de Socleo et Zandoly avant la bascule.
