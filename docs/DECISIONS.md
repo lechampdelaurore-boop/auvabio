@@ -31,3 +31,8 @@ Tranché par : François.
 Les vidéos laissées par les anciens cadres sont transcrites sur le PC de François (faster-whisper, modèle large-v3) ; aucune vidéo, audio ni transcription n'est envoyé à un service externe. Audio, transcriptions et images restent hors dépôt (Documents\AUVABIO-prive). Seules les procédures épurées (sans nom, client, producteur ni prix) entrent dans le dépôt.
 Raison : les vidéos contiennent des données réelles et des passages sur le personnel.
 Tranché par : François (accord sur l'installation locale, 23/11/2026).
+
+## D-008 — Captures d'écran gardées hors dépôt (23/11/2026)
+Les captures d'écran des outils ne sont pas déposées dans le dépôt public. Elles restent sur le PC de François (Documents\AUVABIO-prive\captures). Les procédures du dépôt renvoient à la capture par un repère (nom de fichier, sans contenu) ; Romain reçoit les captures avec son kit, hors dépôt.
+Raison : les écrans montrent des données réelles ; le flou ne suffit pas à écarter tout risque.
+Tranché par : François.
