@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-11-23
+- Recoupement des cinq procédures avec l'aide et les manuels de Socleo et la carte de Zandoly : tableau « Recoupement » ajouté à chacune ; mercuriale corrigée (la fenêtre de gauche est la mercuriale de Zandoly) ; exemples chiffrés remplacés par des exemples fictifs. Décision D-009.
 - Ajout de docs/procedures/ : répartition du matin, répartition du soir, inventaire hebdomadaire du stock, facturation mensuelle des prestations. Reconstituées d'après des vidéos ; à vérifier sur le vrai outil ; aucune capture ; aucune donnée réelle (noms, clients, prix retirés).
 - Ajout de docs/procedures/mise-a-jour-de-la-mercuriale.md : tirée des seules images (son inaudible), à vérifier ; partie « site » non reconstituée.
 - Décision D-007 : transcription des vidéos en local uniquement.
