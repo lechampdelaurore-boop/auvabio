@@ -2,6 +2,7 @@
 
 ## 2026-11-23
 - Ajout de docs/procedures/ : répartition du matin, répartition du soir, inventaire hebdomadaire du stock, facturation mensuelle des prestations. Reconstituées d'après des vidéos ; à vérifier sur le vrai outil ; aucune capture ; aucune donnée réelle (noms, clients, prix retirés).
+- Ajout de docs/procedures/mise-a-jour-de-la-mercuriale.md : tirée des seules images (son inaudible), à vérifier ; partie « site » non reconstituée.
 - Décision D-007 : transcription des vidéos en local uniquement.
 - Décision D-008 : captures d'écran gardées hors dépôt (sur le PC de François).
 

@@ -1,7 +1,7 @@
 # État du projet AUVABIO
 
 ## Où on en est (mettre à jour à chaque fin de tâche)
-- Date : 23/11/2026. Quatre brouillons de procédures reconstituées d'après les vidéos laissées par les anciens cadres, dans docs/procedures/ (tous « à vérifier », sans capture). Dépôt public. Cartes de Zandoly, Socleo et OTF (vente) et comparatif déposés dans docs/outils/ (lecture seule, à vérifier avec Romain). Aide de Socleo (833 sections) et documentation d'OTF (49 pages) lues en entier le 14/11 ; liste de couverture dans docs/outils/couverture.md. Étape 1 (inventaire des tâches) reste à faire ; mesure des clics abandonnée (D-006).
+- Date : 23/11/2026. Cinq brouillons de procédures reconstituées d'après les vidéos laissées par les anciens cadres, dans docs/procedures/ (tous « à vérifier », sans capture). Dépôt public. Cartes de Zandoly, Socleo et OTF (vente) et comparatif déposés dans docs/outils/ (lecture seule, à vérifier avec Romain). Aide de Socleo (833 sections) et documentation d'OTF (49 pages) lues en entier le 14/11 ; liste de couverture dans docs/outils/couverture.md. Étape 1 (inventaire des tâches) reste à faire ; mesure des clics abandonnée (D-006).
 - Contexte : deux cadres licenciés, passation en une semaine à deux membres du bureau, informations perdues. Un nouvel employé, Romain, remplace les deux postes.
 - Volets : A (assistant Zandoly/Socleo, recopie, veille des prix), B (documentation), C (module sur mesure adossé à OTF).
 - Prochaine étape : voir ROADMAP, étape 1.
@@ -28,7 +28,7 @@
 - Fournir l'accès aux deux logiciels pour le scan (il se connecte lui-même ; Claude ne voit aucun mot de passe).
 
 ## Journal
-- 23/11/2026 : cinq vidéos d'explication (4 h 28) transcrites en local (rien envoyé à un service externe), transcriptions, audio et images gardés hors dépôt. Quatre procédures rédigées dans docs/procedures/ : répartition du matin, répartition du soir, inventaire hebdomadaire du stock, facturation mensuelle des prestations. Non testées sur le vrai outil. Vidéo du 8/09 (site et mercuriale) : son trop faible, à traiter à partir des images.
+- 23/11/2026 : cinq vidéos d'explication (4 h 28) transcrites en local (rien envoyé à un service externe), transcriptions, audio et images gardés hors dépôt. Quatre procédures rédigées dans docs/procedures/ : répartition du matin, répartition du soir, inventaire hebdomadaire du stock, facturation mensuelle des prestations. Non testées sur le vrai outil. Vidéo du 8/09 (site et mercuriale) : son inaudible ; procédure « mise à jour de la mercuriale » tirée des seules images, très incertaine ; partie « site » non reconstituée.
 - 14/11/2026 : premier relevé de Zandoly en lecture seule (François connecté) ; carte de structure dans docs/outils/zandoly.md, détail avec données hors dépôt. Rien modifié dans Zandoly.
 - 8/11/2026 : création du projet, instructions et registres de départ.
 - 8/11/2026 : dépôt GitHub privé « auvabio » créé ; registres de départ déposés (commit initial). Désormais tout passe par PR.
