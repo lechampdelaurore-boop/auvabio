@@ -36,3 +36,8 @@ Tranché par : François (accord sur l'installation locale, 23/11/2026).
 Les captures d'écran des outils ne sont pas déposées dans le dépôt public. Elles restent sur le PC de François (Documents\AUVABIO-prive\captures). Les procédures du dépôt renvoient à la capture par un repère (nom de fichier, sans contenu) ; Romain reçoit les captures avec son kit, hors dépôt.
 Raison : les écrans montrent des données réelles ; le flou ne suffit pas à écarter tout risque.
 Tranché par : François.
+
+## D-009 — Recoupement des procédures avec la documentation (23/11/2026)
+Chaque procédure tirée d'une vidéo est recoupée avec l'aide en ligne et les manuels de Socleo et la carte de Zandoly ; un tableau « Recoupement » (confirmé / à corriger / non établi) figure en bas de chaque procédure. Une procédure recoupée mais non essayée sur le vrai outil reste « à vérifier ». Les exemples chiffrés issus des vidéos sont remplacés par des exemples fictifs (aucun volume réel dans le dépôt).
+Raison : la documentation est une source indépendante des vidéos, mais elle décrit l'offre complète de Socleo, pas ce qui est activé chez AUVABIO.
+Tranché par : François (demande du 23/11/2026).
